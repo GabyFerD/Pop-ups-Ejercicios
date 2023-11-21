@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 img {
@@ -43,10 +44,24 @@ img {
 }
 
 .boton {
-  padding: 10px 30px;
+  padding: 10px 35px;
   font-size: 0.75rem;
   border: none;
   background-color: #ed6755;
   color: white;
   border-radius: 3px;
+  cursor: pointer;
+}
+
+.botonX {
+  position: absolute;
+  left: 300px;
+  top: 20px;
+  border: none;
+  background-color: #ffffff;
+  color: rgb(197, 203, 209);
+}
+
+.textX {
+  font-size: 1.5rem;
 }
