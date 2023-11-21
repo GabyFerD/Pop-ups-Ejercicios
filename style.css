@@ -8,7 +8,12 @@
 }
 
 body {
-  background-color: rgb(212, 219, 226);
+  background-color: rgb(235, 242, 248);
+}
+
+.contenedor {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,5 +23,5 @@ body {
   width: 250px;
   height: 250px;
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 15px;
 }
