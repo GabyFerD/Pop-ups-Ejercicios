@@ -54,6 +54,12 @@ body {
   color: white;
   border-radius: 3px;
   cursor: pointer;
+  box-shadow: 0px 10px 20px -6px rgba(247, 154, 139, 0.6);
+}
+
+.pop-up__button:hover {
+  transform: scale(1.1);
+  transition: all 0.1s ease;
 }
 
 .pop-up__buttonX {
@@ -67,6 +73,11 @@ body {
 
 .pop-up__x {
   font-size: 1.5rem;
+}
+
+.pop-up__x:hover {
+  color: #6c7f9a;
+  cursor: pointer;
 }
 
 .img2 {
@@ -83,4 +94,5 @@ body {
   margin-bottom: 20px;
   padding: 12px 40px;
   border-radius: 5px;
+  box-shadow: 0px 10px 20px -6px #2e3c50;
 }
